@@ -1,0 +1,53 @@
+@font-face {
+  src: url("./shared/fonts/Futura/unicode.futurab.ttf");
+  font-family: Futura;
+}
+
+@font-face {
+  src: url("./shared/fonts/Roboto/Roboto-Regular.ttf");
+  font-family: Roboto;
+}
+
+@font-face {
+  src: url("./shared/fonts/Roboto/Roboto-Medium.ttf");
+  font-family: Roboto-Medium;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #a8a5a5;
+}
+
+.article_text_color {
+  color: #8b86a7 !important;
+}
+
+.article_text_color_border {
+  border: 1px solid #8b86a7 !important;
+}
+
+div > a.active,
+div > a.active:hover {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 7px;
+  text-decoration: none;
+  color: #907cff !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
