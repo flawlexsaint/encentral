@@ -64,7 +64,7 @@ const Global_feed = () => {
               <h1 className="text-capitalize" style={style.feed_header}>
                 {item.title}
               </h1>
-              <p style={style.feed_header.content}>{item.body}</p>
+              <p style={style.feed_header.content}>{item.description}</p>
             </a>
           </div>
           <div className="col-lg-4 d-flex align-items-end justify-content-end">

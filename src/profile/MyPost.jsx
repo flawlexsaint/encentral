@@ -52,7 +52,7 @@ const MyPost = () => {
               <h1 className="text-capitalize" style={Stylesheet.feed_header}>
                 {article.title}
               </h1>
-              <p style={Stylesheet.feed_header.content}>{article.body}</p>
+              <p style={Stylesheet.feed_header.content}>{article.description}</p>
             </div>
             <div className="col-md-4 d-flex align-items-end justify-content-end">
               <div className="d-flex align-items-end justify-content-end">

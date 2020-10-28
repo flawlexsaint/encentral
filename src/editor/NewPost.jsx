@@ -26,7 +26,6 @@ const NewPost = () => {
     setTags("");
     setBody("");
     setDescription("");
-    setRender(!render);
   };
 
   return created === 200 ? (
@@ -36,6 +35,9 @@ const NewPost = () => {
           <FeedSkeleton />
         </div>
       </div>
+      {setTimeout(() => {
+        setRender(!render);
+      }, 200)}
       <Redirect to="/" />
     </>
   ) : (
@@ -61,6 +63,7 @@ const NewPost = () => {
             value={description}
             onChange={(e) => setDescription(e.target.value)}
             style={Stylesheet.text_input}
+            maxLength="100"
           />
           <textarea
             name=""

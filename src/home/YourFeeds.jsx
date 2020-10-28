@@ -45,7 +45,7 @@ const Feeds = () => {
           <div className="col-md-8">
             <a href={`/articles/${item.slug}`}>
               <h1 style={style.feed_header}>{item.title}</h1>
-              <p style={style.feed_header.content}>{item.body}</p>
+              <p style={style.feed_header.content}>{item.description}</p>
             </a>
           </div>
           <div className="col-md-4 d-flex align-items-end justify-content-end">

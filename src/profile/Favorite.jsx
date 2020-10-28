@@ -49,8 +49,12 @@ const Favorite = (props) => {
           <div className="row mt-4 mb-5">
             <div className="col-md-8">
               <Link to={`/articles/${article.slug}`}>
-                <h1 className="text-capitalize" style={Stylesheet.feed_header}>{article.title}</h1>
-                <p style={Stylesheet.feed_header.content}>{article.body}</p>
+                <h1 className="text-capitalize" style={Stylesheet.feed_header}>
+                  {article.title}
+                </h1>
+                <p style={Stylesheet.feed_header.content}>
+                  {article.description}
+                </p>
               </Link>
             </div>
             <div className="col-md-4 d-flex align-items-end justify-content-end">
