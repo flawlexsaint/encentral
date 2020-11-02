@@ -1,4 +1,4 @@
-RUNNING THE PROJECT LOCALLY
+### `RUNNING THE PROJECT LOCALLY`
 
 1. create a directory on your local device,
 2. navigate into the directory, and create a new react project using your device terminal "npx create-react-app",
